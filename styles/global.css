@@ -1,8 +1,19 @@
-html,
+html {
+  height: 100%;
+}
 body {
+  min-height: 100%;
   padding: 0;
   margin: 0;
+  background-color: #fcfbf9;
+  color: #c5389b;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* rosa: #c5389b
+verde: #54a8b0
+branco: #fcfbf9
+azul: #2b2c68 */
 
 a {
   color: inherit;
@@ -16,4 +27,19 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+button {
+  padding: 8px 10px;
+  background-color: #54a8b0;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fcfbf9;
+}
+
+button:hover {
+  background-color: #45898f;
+  transition: all 0.3s;
 }
